@@ -1,0 +1,6 @@
+.env
+.git
+frontend
+scraper
+__pycache__
+*.pyc
