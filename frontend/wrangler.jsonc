@@ -1,11 +1,11 @@
 {
   "$schema": "node_modules/wrangler/config-schema.json",
-  "name": "jobgod-frontend",
+  "name": "jobgod",
   "main": ".open-next/worker.js",
   "compatibility_date": "2025-05-05",
   "compatibility_flags": ["nodejs_compat", "global_fetch_strictly_public"],
   "assets": { "directory": ".open-next/assets", "binding": "ASSETS" },
-  "services": [{ "binding": "WORKER_SELF_REFERENCE", "service": "jobgod-frontend" }],
+  "services": [{ "binding": "WORKER_SELF_REFERENCE", "service": "jobgod" }],
   "vars": {
     // Public URL of the deployed FastAPI backend (no trailing slash)
     "API_URL": "https://your-backend.example.com"
